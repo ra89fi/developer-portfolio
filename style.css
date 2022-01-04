@@ -6,11 +6,13 @@ body {
 h1 {
     font-size: 50px;
 }
-h1 .author-orange {
+.author-orange {
     color: orange;
 }
-section {
+.flexible-container {
     display: flex;
+}
+section {
     margin-bottom: 150px;
 }
 .half-width {
@@ -35,4 +37,31 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+#exp {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.shadow-box {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 8px;
+}
+#exp .right {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#exp .left {
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+}
+footer {
+    text-align: center;
+    margin-bottom: 20px;
 }
