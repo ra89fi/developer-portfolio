@@ -1,1 +1,32 @@
-body * { margin:0; padding: 0; }
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 50px;
+}
+h1 .author-orange {
+    color: orange;
+}
+section {
+    display: flex;
+}
+.half-width {
+    width: 50%; padding-left: 5%;
+}
+.half-width img {
+    width: 80%;
+}
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    padding: 10px 40px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#header {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
